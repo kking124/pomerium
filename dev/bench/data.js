@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673923911044,
-  "repoUrl": "https://github.com/pomerium/pomerium",
+  "lastUpdate": 1683809190013,
+  "repoUrl": "https://github.com/kking124/pomerium",
   "entries": {
     "Benchmark": [
       {
@@ -29948,6 +29948,42 @@ window.BENCHMARK_DATA = {
             "value": 8020521,
             "unit": "ns/op",
             "extra": "144 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dmishin@pomerium.com",
+            "name": "Denis Mishin",
+            "username": "wasaga"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "80ffefeafd1b2a4d49982e231054324e3cb2a547",
+          "message": "fix WillHaveCertificateForServerName check to be strict match for derived cert name (#4167)",
+          "timestamp": "2023-05-09T18:54:50-04:00",
+          "tree_id": "1613bc85371865d34e1c308cb794ce8474dc9244",
+          "url": "https://github.com/kking124/pomerium/commit/80ffefeafd1b2a4d49982e231054324e3cb2a547"
+        },
+        "date": 1683809189651,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLoggedInUserAccess",
+            "value": 13574728,
+            "unit": "ns/op",
+            "extra": "80 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkLoggedOutUserAccess",
+            "value": 8607119,
+            "unit": "ns/op",
+            "extra": "136 times\n2 procs"
           }
         ]
       }
